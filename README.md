@@ -1,10 +1,9 @@
-Attention:
-.main.c:
+main.c to copy/past:
 
+```c
 #include "ft_printf.h"
 int main()
 {
-
 	ft_printf("Hello %s! Your score is %d%%.\n", "Alice", 95);
 	printf("Hello %s! Your score is %d%%.\n", "Alice", 95);
 	ft_printf("Hex: %x, Pointer: %p\n", 255, (void *)0x7ffeed);
@@ -15,3 +14,4 @@ int main()
 	printf("Hex: %x, Pointer: %p\n", 0x0, (void *)0x0);
 	return 0;
 }
+```
